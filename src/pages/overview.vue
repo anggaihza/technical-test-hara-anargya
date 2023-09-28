@@ -11,6 +11,7 @@
           <input
             v-model="selectedProvinceId"
             type="number"
+            min="0"
             placeholder="Enter Province ID"
             id="provinceId"
             class="p-3 text-sm rounded-full border border-gray-300 w-full focus:outline-none focus:ring focus:border-blue-300 flex-grow" />
@@ -39,6 +40,7 @@
             type="number"
             placeholder="Enter City ID"
             id="cityId"
+            min="0"
             class="p-3 text-sm rounded-full border border-gray-300 w-full focus:outline-none focus:ring focus:border-blue-300 flex-grow" />
           <button
             @click="getProvinceName"
