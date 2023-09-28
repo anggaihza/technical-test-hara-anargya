@@ -1,4 +1,6 @@
 # Technical Test Frontend Hara Anargya
+## Nama : Asep Angga Ihza Sukarya
+## Email : Angga.asep98@gmail.com
 
 ## Installation
 * Fork Repo ini
